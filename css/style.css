@@ -33,6 +33,10 @@
     font-family: var(--text-paraphs-font);
 }
 
+.card-head {
+    font-family: var(--text-head-font);
+}
+
 
 .brand {
     font-family: "Nabla", system-ui;
