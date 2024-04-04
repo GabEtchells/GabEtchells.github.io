@@ -17,12 +17,12 @@
 }
 
 .nav-headers {
-    color: var(--text-headers);
+    color: var(--text-headers-colour);
     font-family: var(--text-head-font);
 }
 
 .nav-headers:hover {
-    color: var(--text-paraphs);
+    color: var(--text-paraphs-colour);
 }
 
 .nav-text {
