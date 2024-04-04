@@ -1,8 +1,10 @@
 :root {
     --background-dark: #2F0147;
     --background-light: #9C528B;
-    --text-headers: #B9929F;
-    --text-paraphs: #E2C2C6;
+    --text-headers-colour: #B9929F;
+    --text-paraphs-colour: #E2C2C6;
+    --text-paraphs-font: "Pixelfy Sans";
+    --text-head-font: "Orbitron";
 }
 
 * {
@@ -16,7 +18,7 @@
 
 .nav-headers {
     color: var(--text-headers);
-    font-family: "Orbitron";
+    font-family: var(--text-head-font);
 }
 
 .nav-headers:hover {
@@ -25,6 +27,10 @@
 
 .nav-text {
     font-size: large;
+}
+
+.text-pargraph {
+    font-family: var(--text-paraphs-font);
 }
 
 
