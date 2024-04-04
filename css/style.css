@@ -1,0 +1,38 @@
+:root {
+    --background-dark: #2F0147;
+    --background-light: #9C528B;
+    --text-headers: #B9929F;
+    --text-paraphs: #E2C2C6;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar {
+    background-color: var(--background-dark);
+}
+
+.nav-headers {
+    color: var(--text-headers);
+    font-family: "Orbitron";
+}
+
+.nav-headers:hover {
+    color: var(--text-paraphs);
+}
+
+.nav-text {
+    font-size: large;
+}
+
+
+.brand {
+    font-family: "Nabla", system-ui;
+    font-size: xxx-large;
+}
+
+.hidden {
+    display: none;
+}
