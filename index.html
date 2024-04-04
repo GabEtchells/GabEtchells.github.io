@@ -2,71 +2,101 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Gabriel's Portofolio</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-
-    <script src="js/main.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Orbitron:wght@400..900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <div class="container-lg">
-        <nav class="navbar navbar-light bg- fixed-top">
-            <div class="container-fluid" style="background-color: rgba(0, 0, 0, 0)">
-                <a class="navbar-brand" style="color: rgb(255, 149, 255);" href="index.html">Gabriel</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"
-                        style="background-color: #fb7cff;; color: rgba(99, 51, 99, 0);"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                        <button type="button" style="background-color: rgba(225, 0, 255, 0.596);" class="btn-close text-reset"
-                            data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about-me.html">About Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="projects.html">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contacts.html">Contacts</a>
-                            </li>
-                        </ul>
-                    </div>
+  <div class="wrapper">
+    <header>
+      <nav class="navbar navbar-expand-sm nav-bar">
+        <div class="container">
+          <a class="navbar-brand brand" href="#">Gabriel</a>
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-text" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link nav-headers nav-home" aria-current="page">Home
+                  <span class="visually-hidden">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers nav-skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers nav-contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nav-headers" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Projects</a>
+                <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownId">
+                  <a class="dropdown-item">Higher Lower</a>
+                  <a class="dropdown-item">Escape Room</a>
+                  <a class="dropdown-item">Build-a-Game</a>
+                  <a class="dropdown-item">Webcatalogue</a>
+                  <a class="dropdown-item">Reborn: A Roguelike (Python)</a>
                 </div>
-            </div>
-        </nav>
-    </div>
-
-    <div class="container-md" style="margin: 8rem">
-        <div class="container-sm">
-            <div class="col-md-3">
-                <div class="card"> 
-                    <div class="card-body">
-                        <h4 class="card-title">Testing 1 2 3</h4>
-                        <p class="card-text">This is some text</p>
-                    </div>
-                </div>
-            </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="row justify-content-center align-items-start  g-2">
+        <div class="card col-sm-12 col-md-12 col-lg-1">
+          <img class="card-img-top" src="img/tv.png" alt="Title" />
+          <div class="card-body">
+            <h4 class="card-title">Gabriel</h4>
+            <p class="card-text">Text</p>
+          </div>
+        </div>
+        <div class="col-sm-15 col-md-6 col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">About Me</h3>
+              <p class="card-text text-center">Hey there, my name is Gabriel and I'm 22 years old. I am a programmer capable of
+                writing in HTML, JavaScript, CSS and Python. I have several years experience in coding and have multiple
+                personal projects under my belt. <br>
+              I like playing games, enjoy walks and occasionally read and watch shows.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-5">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Title</h3>
+              <p class="card-text">Text</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
