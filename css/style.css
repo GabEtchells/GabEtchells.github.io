@@ -3,7 +3,7 @@
     --background-light: #9C528B;
     --text-headers-colour: #B9929F;
     --text-paraphs-colour: #E2C2C6;
-    --text-paraphs-font: "pixelify-sans";
+    --text-paraphs-font: "Pixelify Sans";
     --text-head-font: "Orbitron";
 }
 
@@ -29,8 +29,8 @@
     font-size: large;
 }
 
-.text-pargraph {
-    font-family: "pixelify sans";
+.text-paragraph {
+    font-family: var(--text-paraphs-font);
 }
 
 .card-head {
