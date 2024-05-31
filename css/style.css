@@ -3,7 +3,7 @@
     --background-light: #9C528B;
     --text-headers-colour: #B9929F;
     --text-paraphs-colour: #E2C2C6;
-    --text-paraphs-font: "Pixelify Sans";
+    --text-paraphs-font: "pixelify-sans";
     --text-head-font: "Orbitron";
 }
 
@@ -36,7 +36,6 @@
 .card-head {
     font-family: var(--text-head-font);
 }
-
 
 .brand {
     font-family: "Nabla", system-ui;
