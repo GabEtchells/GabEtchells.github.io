@@ -16,5 +16,15 @@
             <a href="#">Contact</a>
         </nav>
     </header>
+    <main class="wrapper">
+        <p>This is some text</p>
+    </main>
+
+    <style>
+        .wrapper {
+            color: crimson;
+            font-family: 'comic sans ms';
+        }
+    </style>
 </body>
 </html>
