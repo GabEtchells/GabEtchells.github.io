@@ -1,0 +1,52 @@
+:root {
+    --main-colour: black;
+    --text-colour: white;
+    --home-overlay: rgba(0, 0, 0, 0.267);
+    --home-hover: rgba(0, 0, 0, 0.637);
+    --card-background: #f1f1f1;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 580px;
+}
+
+header {
+    background-color: var(--main-colour);
+    width: 100%;
+}
+
+.logo {
+    height: 200px;
+    justify-content: center;
+}
+
+nav {
+    background-color: var(--main-colour);
+    text-align: center;
+    border-top: 3px solid var(--text-colour);
+    border-bottom: 3px solid var(--text-colour);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-colour);
+}
+
+img {
+    width: 580px;
+}
+
+.cards {
+    background-color: var(--card-background);
+}
+
+footer {
+    background-color: var(--main-colour);
+    color: var(--text-colour);
+}
