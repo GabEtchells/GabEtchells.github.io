@@ -21,7 +21,7 @@
 
 <body>
     <header>
-        <nav class="nav justify-content-center">
+        <nav class="nav justify-content-center fs-1">
             <a class="nav-link" href="index.php" aria-current="page">Home</a>
             <a class="nav-link" href="php/projects.php">Projects</a>
             <a class="nav-link" href="php/about-me.php">About me</a>

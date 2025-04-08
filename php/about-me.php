@@ -21,7 +21,7 @@
 
 <body>
     <header>
-        <nav class="nav justify-content-center">
+        <nav class="nav justify-content-center fs-1">
             <a class="nav-link" href="../index.php" aria-current="page">Home</a>
             <a class="nav-link" href="projects.php">Projects</a>
             <a class="nav-link" href="about-me.php">About me</a>
@@ -62,13 +62,13 @@
             text-decoration: none;
             color: lightblue;
             font-family: "Bokor", system-ui;
-            font-size: xx-large;
+            font-size: x-large;
         }
 
         a:hover {
             color: crimson;
+            font-size: xx-large;
         }
-
         h1 {
             color: skyblue;
             font-family: "Bokor", system-ui;

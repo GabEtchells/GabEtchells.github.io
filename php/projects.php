@@ -21,7 +21,7 @@
 
 <body>
     <header>
-        <nav class="nav justify-content-center">
+        <nav class="nav justify-content-center fs-1">
             <a class="nav-link" href="../index.php" aria-current="page">Home</a>
             <a class="nav-link" href="projects.php">Projects</a>
             <a class="nav-link" href="about-me.php">About me</a>
@@ -40,7 +40,8 @@
                         <h5 class="card-title text-danger">Higher Lower</h5>
                         <p class="card-text text-danger">
                             A small fun project I worked on. It's a simple game with not that much complex code. It's a
-                            fun time waster of a game.
+                            fun time waster of a game. Done with HTML, JS and CSS. It plays with cards and you must
+                            guess if the computer card is either higher or lower.
                         </p>
                         <a href="projects/higher-lower/index.html">Click here to play the game!</a>
                     </div>
@@ -59,7 +60,8 @@
                         <p class="card-text text-warning">
                             A game I made is Minesweeper. A tad bit complex and also very fun. Although I could not put
                             in all the functions, it still functions as a game and
-                            is also very fun.
+                            is also very fun. You click on the boxes and try to avoid the mines by reading the numbers
+                            and trying to guess where a mine might be.
                         </p>
                         <a href="projects/minesweeper/ms-page.html">Click here to play the game!</a>
                     </div>
@@ -78,7 +80,7 @@
                         <p class="card-text text-primary">
                             A small web shop, made to be functional and able to place reviews with an "account" of
                             sorts. It works with a MySQL database able to store data and
-                            pull said data.
+                            pull said data. Written in PHP and HTML.
                         </p>
                     </div>
                 </div>
@@ -101,13 +103,12 @@
 
         a {
             text-decoration: none;
-            color: lightblue;
             font-family: "Bokor", system-ui;
-            font-size: xx-large;
+            font-size: x-large;
         }
 
         a:hover {
-            color: crimson;
+            font-size: xx-large;
         }
 
         h1 {
