@@ -17,9 +17,9 @@
     <header>
         <nav>
             <a href="index.php">Home</a>
-            <a href="projects.php">Projects</a>
-            <a href="about-me.php">About me</a>
-            <a href="contacts.php">Contact</a>
+            <a href="php/projects.php">Projects</a>
+            <a href="php/about-me.php">About me</a>
+            <a href="php/contacts.php">Contact</a>
         </nav>
     </header>
     <main class="wrapper">
