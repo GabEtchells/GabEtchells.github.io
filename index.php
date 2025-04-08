@@ -21,18 +21,74 @@
 
 <body>
     <header>
-        <nav
-            class="nav justify-content-center"
-        >
+        <nav class="nav justify-content-center">
             <a class="nav-link" href="index.php" aria-current="page">Home</a>
             <a class="nav-link" href="php/projects.php">Projects</a>
             <a class="nav-link" href="php/about-me.php">About me</a>
             <a class="nav-link" href="php/contacts.php">Contact</a>
         </nav>
-        
+
     </header>
-    <main class="wrapper">
-        
+    <main class="wrapper row">
+        <article class="col-md-3">
+            <h1>Hello! I am Gabriel and this is my page!</h1>
+            <p class="text-info intro">Welcome to my humble page where I discuss my projects and myself. This is also
+                where I let you know how you can contact me!</p>
+        </article>
+        <article class="col-md-3">
+            <h1>This is the menu!</h1>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="" class="img-fluid rounded-start" alt="Card title" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">These are my projects</h5>
+                            <p class="card-text text-danger">
+                                These are all my works so far, it is irregularly updated so be on the look out if I post
+                                more!
+                            </p>
+                            <a href="php/projects.php">Click here to view page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="" class="img-fluid rounded-start" alt="Card title" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">This is about me!</h5>
+                            <p class="card-text text-warning">
+                                Everything you need to know about me!
+                            </p>
+                            <a href="php/about-me.php">Click here to view page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="" class="img-fluid rounded-start" alt="Card title" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">This is how you contact me</h5>
+                            <p class="card-text text-danger">
+                                Does what it says on the tin! How you contact me.
+                            </p>
+                            <a href="php/contacts.php">Click here to view page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
     </main>
 
     <style>
@@ -51,11 +107,12 @@
             text-decoration: none;
             color: lightblue;
             font-family: "Bokor", system-ui;
-            font-size: xx-large;
+            font-size: x-large;
         }
 
         a:hover {
             color: crimson;
+            font-size: xx-large;
         }
 
         h1 {
@@ -64,7 +121,6 @@
         }
 
         .intro {
-            color: blue;
             font-family: "Faculty Glyphic", sans-serif;
         }
     </style>
