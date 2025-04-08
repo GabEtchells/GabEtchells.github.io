@@ -21,18 +21,29 @@
 
 <body>
     <header>
-        <nav
-            class="nav justify-content-center"
-        >
+        <nav class="nav justify-content-center">
             <a class="nav-link" href="../index.php" aria-current="page">Home</a>
             <a class="nav-link" href="projects.php">Projects</a>
             <a class="nav-link" href="about-me.php">About me</a>
             <a class="nav-link" href="contacts.php">Contact</a>
         </nav>
-        
-    </header>
-    <main class="wrapper">
 
+    </header>
+    <main class="wrapper text-center">
+        <h1 class="text-success">This is me!</h1>
+        <h3 class="text-white-50">My name is Gabriel</h3>
+        <p class="text-info">I'm an amateur programmer born in Thailand. My passion for coding comes from my father who
+            supports me in my path and also is a programmer, a software engineer to be precise. <br>
+            Over time I began to study the art of code and decided to further my career in said ambition. I have learned
+            a lot in the time I do this as both as a side-project at home and with my dad who loves to teach me this
+            craft. <br>
+            It is very inspiring to see my dad so passionate about this and thus I plan to carry on his torch and become
+            an expert like he is! I love the puzzle solving element to coding and thoroughly enjoy to type away and
+            watch my code come to life when I test it out, watch it evolve from nothing to a feasible thing seen on
+            screen. <br>
+            Furthermore it interests me greatly to see tech develop and my dream is to one day help it reach new
+            heights. To hear the innovations and to be at the forefront of it would be incredibly fantastic!
+        </p>
     </main>
 
     <style>
@@ -63,8 +74,11 @@
             font-family: "Bokor", system-ui;
         }
 
-        .intro {
-            color: blue;
+        h3 {
+            font-family: "Faculty Glyphic", sans-serif;
+        }
+
+        p {
             font-family: "Faculty Glyphic", sans-serif;
         }
     </style>

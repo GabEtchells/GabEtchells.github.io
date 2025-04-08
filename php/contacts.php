@@ -31,8 +31,24 @@
         </nav>
         
     </header>
-    <main class="wrapper">
-
+    <main class="wrapper text-center justify-content-center">
+        <h1>This is how you contact me!</h1>
+        <div
+            class="card text-white bg-primary"
+        >
+            <img class="card-img-top" src="holder.js/100px180/" alt="Title" />
+            <div class="card-body">
+                <h4 class="card-title">Contacts</h4>
+                <p class="card-text">thisisarealemail@email.com <br>
+                0612345678 <br>
+            </p>
+            <form action="post">
+                <input class="text-white" type="text">
+                <button class="text-primary">Send!</button>
+            </form>
+            </div>
+        </div>
+        
     </main>
 
     <style>
@@ -63,7 +79,7 @@
             font-family: "Bokor", system-ui;
         }
 
-        .intro {
+        p {
             color: blue;
             font-family: "Faculty Glyphic", sans-serif;
         }

@@ -33,7 +33,7 @@
         <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
                 <div class="col-md-4">
-                    <img src="Image Source" class="img-fluid rounded-start" alt="Card title" />
+                    <img src="../img/higher-lower.png" class="img-fluid rounded-start" alt="Card title" />
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -42,6 +42,7 @@
                             A small fun project I worked on. It's a simple game with not that much complex code. It's a
                             fun time waster of a game.
                         </p>
+                        <a href="projects/higher-lower/index.html">Click here to play the game!</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +51,7 @@
         <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
                 <div class="col-md-4">
-                    <img src="Image Source" class="img-fluid rounded-start" alt="Card title" />
+                    <img src="../img/minesweeper.png" class="img-fluid rounded-start" alt="Card title" />
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
@@ -60,6 +61,7 @@
                             in all the functions, it still functions as a game and
                             is also very fun.
                         </p>
+                        <a href="projects/minesweeper/ms-page.html">Click here to play the game!</a>
                     </div>
                 </div>
             </div>
@@ -109,12 +111,10 @@
         }
 
         h1 {
-            color: skyblue;
             font-family: "Bokor", system-ui;
         }
 
-        .intro {
-            color: blue;
+        p {
             font-family: "Faculty Glyphic", sans-serif;
         }
     </style>
