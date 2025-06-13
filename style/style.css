@@ -5,9 +5,13 @@
     box-sizing: border-box;
 }
 
-.wrapper {}
+.wrapper {
 
-nav {}
+}
+
+nav {
+    
+}
 
 a {
     text-decoration: none;
