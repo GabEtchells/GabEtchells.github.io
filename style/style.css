@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.wrapper {}
+
+nav {}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+    font-family: "Bokor", system-ui;
+    font-size: x-large;
+}
+
+a:hover {
+    color: crimson;
+    font-size: xx-large;
+}
+
+h1 {
+    color: skyblue;
+    font-family: "Bokor", system-ui;
+}
+
+.intro {
+    font-family: "Faculty Glyphic", sans-serif;
+}
